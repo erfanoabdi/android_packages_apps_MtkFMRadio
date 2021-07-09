@@ -24,6 +24,16 @@ LOCAL_USE_AAPT2 := true
 
 LOCAL_AAPT_FLAGS := --auto-add-overlay
 
+LOCAL_REQUIRED_MODULES := whitelist_com.android.fm.xml
+
 include $(BUILD_PACKAGE)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := whitelist_com.android.fm.xml
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_PATH := $(TARGET_OUT_SYSTEM_EXT_ETC)/permissions
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
