@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.fm.dialogs;
+package com.android.fmradio.dialogs;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -31,9 +31,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.android.fm.FmRecorder;
-import com.android.fm.FmService;
-import com.android.fm.R;
+import com.android.fmradio.FmRecorder;
+import com.android.fmradio.FmService;
+import com.android.fmradio.R;
 
 import java.io.File;
 

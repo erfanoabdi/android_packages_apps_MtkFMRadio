@@ -16,7 +16,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.fm"
+    package="com.android.fmradio"
     android:sharedUserId="android.uid.system"
     android:versionCode="2"
     android:versionName="2.0" >
@@ -69,13 +69,13 @@
             android:name=".FmService"
             android:exported="false" >
             <intent-filter>
-                <action android:name="com.android.fm.IFmRadioService" />
+                <action android:name="com.android.fmradio.IFmRadioService" />
             </intent-filter>
         </service>
 
         <provider
             android:name=".FmProvider"
-            android:authorities="com.android.fm"
+            android:authorities="com.android.fmradio"
             android:exported="false" >
         </provider>
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.fm;
+package com.android.fmradio;
 
 import android.app.ActivityManager;
 import android.app.Notification;
@@ -64,7 +64,7 @@ import android.os.SystemProperties;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.fm.FmStation.Station;
+import com.android.fmradio.FmStation.Station;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -158,7 +158,7 @@ public class FmService extends Service implements FmRecorder.OnRecorderStateChan
     // RT String
     private String mRtTextString = "";
     // Notification target class name
-    private String mTargetClassName = "com.android.fm.FmMainActivity";
+    private String mTargetClassName = FmMainActivity.class.getName();
     // RDS thread use to receive the information send by station
     private Thread mRdsThread = null;
     // record whether RDS thread exit

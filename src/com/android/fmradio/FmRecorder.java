@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.fm;
+package com.android.fmradio;
 
 import android.content.ContentResolver;
 import android.content.ContentUris;

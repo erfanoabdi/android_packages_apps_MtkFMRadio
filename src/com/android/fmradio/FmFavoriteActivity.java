@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.fm;
+package com.android.fmradio;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -56,8 +56,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.fm.FmService.OnExitListener;
-import com.android.fm.FmStation.Station;
+import com.android.fmradio.FmService.OnExitListener;
+import com.android.fmradio.FmStation.Station;
 
 /**
  * This class interact with user, provider edit station information, such as add

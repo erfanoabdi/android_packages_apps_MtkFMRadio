@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.fm;
+package com.android.fmradio;
 
 /**
  * This class define FM native interface, will description FM native interface
  */
 public class FmNative {
     static {
-        System.loadLibrary("fmjni");
+        System.loadLibrary("mtkfmjni");
     }
 
     /**

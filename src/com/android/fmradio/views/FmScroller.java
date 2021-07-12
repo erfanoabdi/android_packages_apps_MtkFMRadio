@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.fm.views;
+package com.android.fmradio.views;
 
 import android.animation.Animator;
 import android.animation.Animator.AnimatorListener;
@@ -60,10 +60,10 @@ import android.widget.ScrollView;
 import android.widget.Scroller;
 import android.widget.TextView;
 
-import com.android.fm.FmStation;
-import com.android.fm.FmUtils;
-import com.android.fm.R;
-import com.android.fm.FmStation.Station;
+import com.android.fmradio.FmStation;
+import com.android.fmradio.FmUtils;
+import com.android.fmradio.R;
+import com.android.fmradio.FmStation.Station;
 
 /**
  * Modified from Contact MultiShrinkScroll Handle the touch event and change

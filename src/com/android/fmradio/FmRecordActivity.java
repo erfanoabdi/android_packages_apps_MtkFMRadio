@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.fm;
+package com.android.fmradio;
 
 import java.io.File;
 
@@ -46,9 +46,9 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.fm.FmStation.Station;
-import com.android.fm.dialogs.FmSaveDialog;
-import com.android.fm.views.FmVisualizerView;
+import com.android.fmradio.FmStation.Station;
+import com.android.fmradio.dialogs.FmSaveDialog;
+import com.android.fmradio.views.FmVisualizerView;
 
 //import static android.Manifest.permission.READ_MEDIA_AUDIO;
 
