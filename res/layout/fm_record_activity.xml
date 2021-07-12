@@ -150,7 +150,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_alignParentRight="true" >
-            <com.android.fm.views.FmVisualizerView
+            <com.android.fmradio.views.FmVisualizerView
                 android:id="@+id/fm_play_indicator"
                 android:layout_width="24dip"
                 android:layout_height="24dip"

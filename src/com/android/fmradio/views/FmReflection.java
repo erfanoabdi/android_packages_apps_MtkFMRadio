@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.fm.views;
+package com.android.fmradio.views;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

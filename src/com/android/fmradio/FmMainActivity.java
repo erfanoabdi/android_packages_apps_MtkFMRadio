@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.fm;
+package com.android.fmradio;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -61,11 +61,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.Toolbar;
 
-import com.android.fm.FmStation.Station;
-import com.android.fm.dialogs.FmFavoriteEditDialog;
-import com.android.fm.views.FmScroller;
-import com.android.fm.views.FmScroller.EventListener;
-import com.android.fm.views.FmSnackBar;
+import com.android.fmradio.FmStation.Station;
+import com.android.fmradio.dialogs.FmFavoriteEditDialog;
+import com.android.fmradio.views.FmScroller;
+import com.android.fmradio.views.FmScroller.EventListener;
+import com.android.fmradio.views.FmSnackBar;
 
 //import static android.Manifest.permission.READ_MEDIA_AUDIO;
 /**

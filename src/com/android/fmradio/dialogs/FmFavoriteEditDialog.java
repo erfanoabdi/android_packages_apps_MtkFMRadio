@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.fm.dialogs;
+package com.android.fmradio.dialogs;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -31,7 +31,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.android.fm.R;
+import com.android.fmradio.R;
 
 /**
  * Edit favorite station name and frequency, caller should implement

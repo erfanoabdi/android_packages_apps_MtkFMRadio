@@ -16,7 +16,7 @@
 -->
 
 <permissions>
-    <privapp-permissions package="com.android.fm">
+    <privapp-permissions package="com.android.fmradio">
         <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
         <permission name="android.permission.ACCESS_BROADCAST_RADIO"/>
         <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>

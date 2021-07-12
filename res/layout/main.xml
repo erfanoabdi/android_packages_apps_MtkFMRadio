@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 
-<com.android.fm.views.FmScroller
+<com.android.fmradio.views.FmScroller
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -48,4 +48,4 @@
 
     <include layout="@layout/no_headset" />
 
-</com.android.fm.views.FmScroller>
+</com.android.fmradio.views.FmScroller>

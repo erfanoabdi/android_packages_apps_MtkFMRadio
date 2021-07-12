@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.fm.views;
+package com.android.fmradio.views;
 
 import android.content.Context;
 import android.graphics.PixelFormat;
@@ -27,7 +27,7 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.android.fm.R;
+import com.android.fmradio.R;
 
 /**
  * The view used to display the customized toast

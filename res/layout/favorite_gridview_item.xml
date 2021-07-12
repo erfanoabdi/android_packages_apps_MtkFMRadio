@@ -52,7 +52,7 @@
         android:layout_height="88dp"
         android:padding="12dip" >
 
-        <com.android.fm.views.FmVisualizerView
+        <com.android.fmradio.views.FmVisualizerView
             android:id="@+id/fm_play_indicator"
             android:layout_width="24dip"
             android:layout_height="24dip"

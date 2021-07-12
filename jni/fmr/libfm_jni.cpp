@@ -687,7 +687,7 @@ jintArray getHardwareVersion(JNIEnv *env, jobject thiz)
     return hw_info;
 }
 
-static const char *classPathNameRx = "com/android/fm/FmNative";
+static const char *classPathNameRx = "com/android/fmradio/FmNative";
 
 static JNINativeMethod methodsRx[] = {
     {"openDev", "()Z", (void*)openDev},

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.fm;
+package com.android.fmradio;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -32,7 +32,7 @@ import android.text.TextUtils;
 public class FmStation {
     private static final String TAG = "FmStation";
     // authority use composite content provider uri
-    public static final String AUTHORITY = "com.android.fm";
+    public static final String AUTHORITY = "com.android.fmradio";
     // use to composite content provider uri
     public static final String STATION = "station";
     // store current station in share preference with this key
